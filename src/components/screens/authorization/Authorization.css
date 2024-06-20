@@ -1,0 +1,192 @@
+.line {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(72, 153, 193);
+    margin-bottom: 30px;
+    text-align: center;
+    color: #11131a;
+}
+
+.container {
+    white-space: nowrap;
+}
+
+.loginForm,
+.qrCodeForm {
+    margin-left: 190px;
+    display: inline-block;
+    width: 50%;
+}
+
+.loginForm {
+    justify-content: center;
+    align-items: center;
+}
+
+.qrCodeForm {
+    text-align: center;
+    /*     background-color: blue;
+ */
+}
+
+
+.qrCodeForm {
+    margin-left: -100px;
+}
+
+body {
+    background-color: #11131a;
+    color: darkgray;
+}
+
+.logoImg {
+    height: 120px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(72, 153, 193);
+}
+
+.loginForm label,
+.loginForm input {
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.bottomPanel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #191b20;
+    color: darkgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+.loginForm {
+    text-align: "center";
+}
+
+.errorText {
+    color: red !important;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.MenuCase {}
+
+.coinList {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+
+.navBar {
+    display: flex;
+    /* Устанавливаем контейнеру режим flex */
+    flex-direction: column;
+    /* Устанавливаем направление элементов в столбец */
+}
+
+.MenuIcon {
+    height: 25px;
+    margin: 10px;
+}
+
+.upIcon {
+    height: 50px;
+    margin: 10px;
+}
+
+.balanceLbl {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.MenuCaseText {
+    padding: 10px;
+}
+
+
+.inputField {
+    background-color: rgb(72, 153, 193);
+    border: none;
+    padding: 10px;
+    color: #191b20;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.loginDataPlace {
+    padding: 50px;
+    padding-left: 400px;
+}
+
+.buttonLogin:hover {
+    background-color: #191b20;
+    color: rgb(72, 153, 193);
+}
+
+
+.buttonLogin {
+    height: 40px;
+    border: none;
+    background-color: rgb(72, 153, 193);
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 356px !important;
+    margin-left: 10px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+.createNewAccountLbl1 {
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.inputField2 {
+    margin: 10px;
+    background-color: #11131a;
+    border: 2px solid rgb(72, 153, 193);
+    border-radius: 10px;
+    font-size: 30px;
+    height: 50px;
+    width: 350px !important;
+}
+
+.inputField2:hover,
+.inputField2:focus {
+    border: 2px solid rgb(255, 247, 0) !important;
+}
+
+.regDataPlace {
+    display: flex;
+    flex-direction: column;
+}
+
+.regForm1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageQrCode{
+    margin-bottom: 10px;
+}
+.errorMsgForm{
+    margin-left: 40px;
+}

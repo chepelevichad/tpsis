@@ -1,0 +1,12 @@
+.transactionsHistoryPanel {
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.received {
+    color: green;
+  }
+
+  .sent {
+    color: red;
+  }

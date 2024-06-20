@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'MyFont';
+   src: url('myfont.ttf');
+ }
+ 
+ body {
+/*    background-color: #11131a
+ */   font-family: 'MyFont', sans-serif;  
+      overflow: hidden;
+ }

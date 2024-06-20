@@ -1,0 +1,20 @@
+.withdrawDataPanel {
+  height: 200px;
+  background-color: #191b23;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sellInput {
+  width: 220px;
+}
+
+.btnMaskBalance {
+  border-radius: 5px;
+  border: none;
+  background-color: #11131a;
+  color: rgb(72, 153, 193);
+}

@@ -1,0 +1,32 @@
+.PaymentHeader {
+    text-align: center;
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add margin for spacing if desired */
+    margin-left: 460px;
+}
+
+.TableContainer {
+    text-align: center; /* Center the contents of the container */
+    margin-top: 20px; /* Add margin for spacing if desired */
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBar {
+    /* Your existing styles for the navigation bar */
+}
+
+.PaymentHeader {
+    text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add margin for spacing if desired */
+}
+
+.TableContainer {
+    text-align: center; /* Center the contents of the container */
+    margin-top: 20px; /* Add margin for spacing if desired */
+}

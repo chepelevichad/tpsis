@@ -1,0 +1,98 @@
+.tableServices th, .tableServices td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tableServices th {
+    background-color: #f2f2f2;
+}
+
+.serviceIconColumn {
+    width: 150px; /* Adjust the width for the service icon column */
+}
+
+.nameColumn {
+    width: 150px;
+}
+
+.aboutColumn {
+    width: 400px;
+    white-space: normal;
+}
+
+.buttonColumn {
+    width: 100px; /* Adjust the width for the button column */
+}
+
+.qwertgf{
+    background-color: rgb(72, 153, 193, 0%);
+    border-radius: 10px;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.qwertgf:hover {
+    color: rgb(72, 153, 193);
+}
+
+.chinazes{
+    background-color: rgb(72, 153, 193, 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+.chinazes:hover {
+    color: rgb(72, 153, 193);
+}
+
+.tableServices {
+    width: 1000px;
+    height: 670px; /* Set the desired height */
+    border-collapse: collapse;
+    overflow-y: auto; /* Add vertical scroll */
+    display: block; /* Ensure the table is displayed as a block */
+}
+
+.test-service{
+    width: 400px;
+}
+.tableContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.qwer{
+    margin-left: 400px;
+}
+
+.tableServices {
+    margin-left: 470px;
+    width: 1000px;
+    height: 670px; /* Set the desired height */
+    border-collapse: collapse;
+    overflow-y: auto; /* Add vertical scroll */
+    display: block; /* Ensure the table is displayed as a block */
+}
+
+.selectedServiceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedServiceContent {
+    text-align: center;
+    padding: 20px;
+}
+
+.tableServices {
+    width: 100%; /* Change width to 100% to fit the container */
+    max-width: 1000px; /* Limit the maximum width */
+    height: 670px;
+    border-collapse: collapse;
+    overflow-y: auto;
+    display: block;
+}
+

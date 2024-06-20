@@ -1,0 +1,9 @@
+.qwertgf{
+    background-color: rgb(72, 153, 193, 0%);
+    border-radius: 10px;
+    border: none;
+}
+
+.qwertgf:hover {
+    color: rgb(72, 153, 193);
+}
